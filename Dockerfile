@@ -9,4 +9,4 @@ RUN systemctl enable httpd
 
 COPY index.html /var/www/html/index.html
 
-EXPOSE 5000
+EXPOSE 80
