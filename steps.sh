@@ -1,7 +1,7 @@
 #!/bin/bash -xe
 
 amazon-linux-extras install docker
-sudo yum install docker
+sudo yum install docker -y
 service docker start
 usermod -a -G docker ec2-user
 docker info
